@@ -30,6 +30,7 @@ variable "public_subnet_cidrs" {
   
 }
 variable "public_subnets_tags" {
+    type = map 
     default = {}
-    type = list
+    
 }
